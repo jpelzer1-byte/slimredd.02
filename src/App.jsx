@@ -3,9 +3,8 @@ import React from "react";
 /**
  * Minimal red landing page (Vercel + GitHub compatible)
  * - Solid red background
- * - White terminal-style font
- * - Centered row of text links
- * - NO character image, NO animation
+ * - White terminal-style font (Courier New)
+ * - Perfectly centered text links
  */
 
 const LINKS = [
@@ -18,25 +17,24 @@ const LINKS = [
 
 export default function App() {
   return (
-    <div
-      style={{
-        minHeight: "100vh",
-        background: "#b80000",
-        color: "#ffffff",
-        fontFamily:
-          "ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace",
-        display: "flex",
-        justifyContent: "center",
-        alignItems: "flex-start",
-      }}
-      >
+    <div style={{
+      minHeight: "100vh",
+      width: "100vw",
+      margin: 0,
+      display: "grid",
+      placeItems: "center",
+      background: "#b00000",
+      color: "#fff",
+      textAlign: "center",
+      fontFamily: `"Courier New", Courier, monospace`
+    }}>
       <nav
         style={{
-          marginTop: 160,
           display: "flex",
           gap: 56,
           flexWrap: "wrap",
           justifyContent: "center",
+          alignItems: "center",
         }}
       >
         {LINKS.map((link) => (
