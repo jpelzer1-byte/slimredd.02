@@ -29,7 +29,7 @@ export default function App() {
         justifyContent: "center",
         alignItems: "flex-start",
       }}
-    >
+      >
       <nav
         style={{
           marginTop: 160,
