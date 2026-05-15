@@ -13,7 +13,7 @@ const LINKS = [
   { label: "YouTube", href: "https://www.youtube.com/@dooma3stro" },
   { label: "Spotify", href: "https://open.spotify.com/artist/0QShqQ1HftKHjtINR1Kdtj?si=UwgmcUgtTOKgispBj0kwWA" },
   { label: "Instagram", href: "https://www.instagram.com/s1imredd/"
-    label: "Soundcloud", href: "https://on.soundcloud.com/RLQAUYrap2RcDmxTAF" },
+  { label: "Soundcloud", href: "https://soundcloud.com/user-173547877"},
 ];
 
 export default function App() {
