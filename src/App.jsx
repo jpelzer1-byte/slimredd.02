@@ -12,7 +12,8 @@ const LINKS = [
   { label: "TikTok", href: "https://www.tiktok.com/@slimredd0?lang=en" },
   { label: "YouTube", href: "https://www.youtube.com/@dooma3stro" },
   { label: "Spotify", href: "https://open.spotify.com/artist/0QShqQ1HftKHjtINR1Kdtj?si=UwgmcUgtTOKgispBj0kwWA" },
-  { label: "Instagram", href: "https://www.instagram.com/s1imredd/" },
+  { label: "Instagram", href: "https://www.instagram.com/s1imredd/"
+    label: "Soundcloud", href: "https://on.soundcloud.com/RLQAUYrap2RcDmxTAF" },
 ];
 
 export default function App() {
