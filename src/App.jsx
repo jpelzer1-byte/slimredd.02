@@ -14,6 +14,7 @@ const LINKS = [
   { label: "Spotify", href: "https://open.spotify.com/artist/0QShqQ1HftKHjtINR1Kdtj?si=UwgmcUgtTOKgispBj0kwWA" },
   { label: "Instagram", href: "https://www.instagram.com/s1imredd/" },
   { label: "Soundcloud", href: "https://soundcloud.com/user-173547877" },
+  { label: "Bandcamp", href: "https://slimredd.bandcamp.com/album/zenith" },
 ];
 
 export default function App() {
